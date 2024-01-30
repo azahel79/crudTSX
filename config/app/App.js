@@ -14,7 +14,7 @@ export default class App{
       }  
 
       controllers(){
-           this.app.set("port",process.env.port);
+           this.app.set("port",process.env.PORT);
       }
       middlewares(){
           this.app.use(express.json());
