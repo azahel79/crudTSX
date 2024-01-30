@@ -66,7 +66,7 @@ export const updateNote = async(req= request,res = response)=>{
           return res.status(500).json({msg: "hubo un error",error});
     }
 }  
-
+    
 export const updateNoteState = async(req = request,res = response)=>{
   try {
       // VERIDICVAMOS SI ES UN ID VALIDO
